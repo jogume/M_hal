@@ -6,11 +6,11 @@
 ###############################################################################
 
 #------------------------- Module information --------------------------------#
-MODULE_NAME            = M_hal
-MODULE_PATH            = source
-MODULE_HEADER_PATH     = interface
-MODULE_STATUS          = public
-PRE_COMPILE_VARIANT    = default
+MODULE_NAME             = M_hal
+MODULE_SOURCES_PATH     = source
+CC_INCLUDE_PRIVATE_PATH = interface
+MODULE_STATUS           = public
+PRE_COMPILE_VARIANT     = default
 
 #---------------------------------------------------------------------------------------------------------------------------#
 # Configuration: Select HAL implementation
